@@ -235,8 +235,7 @@ app.get("/QR",function(req,res){
 app.post("/new",function(req,res){
    var data = req.body.data;
    console.log(data);
-});
-
+});//Hello
 app.get("/leaderboard",function(req,res){
 	User.find({}, function(err, foundUsers){
 		if(err){
